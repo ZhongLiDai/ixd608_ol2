@@ -1,6 +1,6 @@
 ### Hi there 👋
 #### My Name is Teylor Feliz
-I am an engineer and UX designer who enjoys working on the Web platform. I work at Haketi, write on admixweb, and teach at the Academy of Art University and the University of Denver.
+I work at [Haketi](https://haketi.com), write on [admixweb](https://admixweb.com), and teach at the Academy of Art University and the University of Denver.
 
 <!--
 **teylorfeliz/teylorfeliz** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
