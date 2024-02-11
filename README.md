@@ -1,6 +1,6 @@
 ### Hi there 👋
 #### My Name is ZhongLi Dai.
-I work at [Haketi](https://haketi.com), write on [admixweb](https://admixweb.com), and a UI/UX students at the Academy of Art University.
+I was a product design major students and now a UI/UX students at the Academy of Art University.
 
 <!--
 **teylorfeliz/teylorfeliz** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
