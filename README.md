@@ -1,6 +1,6 @@
 ### Hi there 👋
 #### This is my Assignment2.
-http://surrealli.com/aau/ZhongLiDai/m02/
+[http://surrealli.com/aau/ZhongLiDai/m02/](https://zhonglidai.github.io/ixd608_ol2/game%20shop/index.html)
 
 <!--
 **teylorfeliz/teylorfeliz** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
