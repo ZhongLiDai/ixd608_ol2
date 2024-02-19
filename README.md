@@ -1,6 +1,5 @@
 ### Hi there 👋
-#### My Name is ZhongLi Dai.
-I was a product design major students and now a UI/UX students at the Academy of Art University.
+#### This is my Assignment2.
 http://surrealli.com/aau/ZhongLiDai/m02/
 
 <!--
