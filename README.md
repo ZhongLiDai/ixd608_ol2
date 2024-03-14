@@ -1,7 +1,7 @@
 # Hi there 👋
 ## I'm Teylor Feliz
 ### A UX Designer, Engineer, Educator, and Consultant
-I work at [Haketi](https://haketi.com), write on [admixweb](https://admixweb.com), and teach UX and web development at the Academy of Art University and the University of Denver.
+
 - Founder/Director of Design & Development at [Haketi](https://haketi.com)
 - I teach UX and Software develoment courses at two universities.
 - I write articles on [admixweb](https://admixweb.com)
