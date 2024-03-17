@@ -153,47 +153,82 @@
     justify-content: center;
 }
 
-.box1 {
+.boxa {
     width: 300px;
     height: 300px;
     background-color: rgb(221, 221, 221);
+    border-radius: 15px;
 }
 
-.box2 {
-    width: 300px;
-    height: 300px;
-    background-color: rgb(221, 221, 221);
-    margin-left: 50px;
-}
-
-.box3 {
+.boxb {
     width: 300px;
     height: 300px;
     background-color: rgb(221, 221, 221);
     margin-left: 50px;
+    border-radius: 15px;
 }
 
-.box4 {
+.boxc {
     width: 300px;
     height: 300px;
     background-color: rgb(221, 221, 221);
     margin-left: 50px;
+    border-radius: 15px;
 }
 
-.box5 {
+.boxd {
     width: 300px;
     height: 300px;
     background-color: rgb(221, 221, 221);
     margin-left: 50px;
+    border-radius: 15px;
 }
 
-.gameshow ul {
+.boxe {
+    width: 300px;
+    height: 300px;
+    background-color: rgb(221, 221, 221);
+    margin-left: 50px;
+    border-radius: 15px;
+}
+
+.boxa:hover {
+    background-color: #333333af;
+    display: block;
+    transition: all 500ms;
+}
+
+.boxb:hover {
+    background-color: #333333af;
+    display: block;
+    transition: all 500ms;
+}
+
+.boxc:hover {
+    background-color: #333333af;
+    display: block;
+    transition: all 500ms;
+}
+
+.boxd:hover {
+    background-color: #333333af;
+    display: block;
+    transition: all 500ms;
+}
+
+.boxe:hover {
+    background-color: #333333af;
+    display: block;
+    transition: all 500ms;
+}
+
+.gameshow {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
 
-.gameshow ul li {
+.gameshow div {
     width: 410px;
     height: 410px;
     margin: 0 50px 50px 0;
@@ -207,9 +242,8 @@
 }
 
 .box2 {
-
-    background-size: cover;
-    border-radius: 15px;
+    width: 300px;
+    height: 300px;
 }
 
 .box3 {
@@ -425,7 +459,7 @@
 }
 
 .btn2:active {
-    background-color: aqua;
+    background-color: #5062FF;
 }
 
 .hotdog1 {
@@ -440,7 +474,7 @@
 .hotdog2 {
     margin-top: 30px;
     border-radius: 30px;
-    width: 150 px;
+    width: 200px;
     height: 30px;
     background-color: rgb(160, 160, 160);
     border-color: #5062FF;
