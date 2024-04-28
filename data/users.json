@@ -1,0 +1,32 @@
+{
+    "1": {
+        "name": "Auro",
+        "type": "designer",
+        "email": "123456@gmail.com",
+        "classes": [
+            "23",
+            "  4",
+            "  2"
+        ]
+    },
+    "2": {
+        "name": "Yamy",
+        "type": "teacher",
+        "email": "123456@gmail.com",
+        "classes": [
+            34,
+            64,
+            246
+        ]
+    },
+    "3": {
+        "name": "Jesoy",
+        "type": "doctor",
+        "email": "123456@gmail.com",
+        "classes": [
+            "34",
+            "  64",
+            "  246"
+        ]
+    }
+}

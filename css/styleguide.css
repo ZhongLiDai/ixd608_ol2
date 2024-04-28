@@ -1,0 +1,588 @@
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+}
+
+:root {
+	--color-primaryR1: rgb(52, 73, 255);
+	--header-height: 2rem;
+	--spacing: 1rem;
+	--font-sans: "Prompt",
+		sans-serif;
+}
+
+
+body {
+	margin: 0;
+	font-size: 100%;
+	font-family: "Prompt",
+		sans-serif;
+}
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Prompt",
+		sans-serif;
+}
+
+.p1 {
+	font-family: "Prompt",
+		sans-serif;
+}
+
+a {
+	color: inherit;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.container {
+	max-width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.display-flex {
+	display: flex;
+}
+
+.display-inline-flex {
+	display: inline-flex;
+}
+
+.display-block {
+	display: block;
+}
+
+.display-inline-block {
+	display: inline-block;
+}
+
+.flex-stretch {
+	flex: 1 1 auto;
+}
+
+.flex-none {
+	flex: none;
+}
+
+.flex-align-center {
+	align-items: center;
+}
+
+.flex-justify-center {
+	justify-content: center;
+}
+
+
+.nav ul {
+	list-style-type: none;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding-left: 0;
+}
+
+.nav a:hover {
+	background-color: #6a80ff;
+	color: white;
+	text-decoration: none;
+}
+
+.nav .active a {
+	background-color: white;
+	color: inherit;
+	text-decoration: none;
+}
+
+.nav-material ul,
+.nav-crumbs ul,
+.nav-pills ul,
+.nav-stretch ul,
+.nav-flex ul {
+	display: flex;
+}
+
+.nav-material li,
+.nav-stretch li {
+	flex: 1 1 auto;
+	text-align: center;
+}
+
+.nav-pills a {
+	border-radius: 2em;
+	padding: 0.5em 1em;
+}
+
+.nav-crumbs a {
+	display: inline-block;
+}
+
+.nav-crumbs .active a,
+.nav-crumbs a:hover {
+	background-color: transparent;
+	color: inherit;
+	text-decoration: underline;
+}
+
+.nav-crumbs li:not(:first-child)::before {
+	content: '/';
+}
+
+
+.nav-material a {
+	padding: 0.5em 1em;
+	position: relative;
+}
+
+.nav-material .active a {
+	background-color: transparent;
+	color: inherit;
+}
+
+.nav-material a:hover {
+	background-color: white;
+	color: inherit;
+}
+
+.nav-material a::after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 0;
+	background-color: white;
+	transition: all 0.3s;
+}
+
+.nav-material .active a::after {
+	height: 4px;
+}
+
+.navbar {
+	background-color: var(--color-primaryR1);
+	color: white;
+	line-height: var(--header-height);
+}
+
+.navbar h1 {
+	font-size: 1em;
+	margin: 0;
+	font-family: "Prompt",
+		sans-serif;
+}
+
+.navbar a {
+	padding: 0 0.5em;
+}
+
+.card {
+	background-color: white;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	padding: 1em;
+	overflow: hidden;
+	position: relative;
+}
+
+
+.card.soft {
+	border-radius: 0.3em;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card.hard {
+	border-radius: 0.2em;
+	border: 2px solid black;
+}
+
+.card.dark {
+	background-color: black;
+	color: var(--color-neutral-light);
+}
+
+.card.medium {
+	background-color: white;
+}
+
+.card.flat {
+	padding: 0;
+}
+
+.cards.pri1 {
+	background-color: white;
+	color: black;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	padding: 1em;
+	overflow: hidden;
+	position: relative;
+}
+
+.cards.pri2 {
+	background-color: white;
+	color: black;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	padding: 1em;
+	overflow: hidden;
+	position: relative;
+}
+
+.cards.pri3 {
+	background-color: white;
+	color: black;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	padding: 1em;
+	overflow: hidden;
+	position: relative;
+}
+
+.cards.sec1 {
+	background-color: white;
+	color: black;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	padding: 1em;
+	overflow: hidden;
+	position: relative;
+}
+
+.cards.sec2 {
+	background-color: white;
+	color: white;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	padding: 1em;
+	overflow: hidden;
+	position: relative;
+}
+
+.cards.sec3 {
+	background-color: white;
+	color: white;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	padding: 1em;
+	overflow: hidden;
+	position: relative;
+}
+
+.table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.table th,
+.table td {
+	text-align: left;
+	padding: 0.2em 0.5em;
+}
+
+.table.striped tbody tr:nth-child(odd) {
+	background-color: white;
+}
+
+.figure {
+	margin: 0;
+	background-color: white;
+}
+
+.figure img {
+	width: 100%;
+	vertical-align: text-bottom;
+}
+
+.figure figcaption {
+	padding: 1em;
+}
+
+.form-control {
+	margin: 1em 0;
+}
+
+.form-select>select,
+.hotdog,
+.form-button,
+.form-input,
+.form-item {
+	display: inline-block;
+	background-color: transparent;
+	border-width: 0;
+	font: inherit;
+	color: inherit;
+	width: 100%;
+	outline: 0;
+}
+
+.form-input {
+	border-bottom: 1px solid black;
+	padding: 0.5em 1em;
+}
+
+.form-input:focus {
+	border-bottom-color: white;
+}
+
+.form-label {
+	font-size: 0.8em;
+	color: black;
+	display: block;
+	width: 100%;
+}
+
+.form-button {
+	background-color: white;
+	padding: 0.5em 1em;
+	border-radius: 0.2em;
+	cursor: pointer;
+	text-align: center;
+}
+
+.form-button:hover {
+	text-decoration: none;
+}
+
+.form-button:active {
+	background-color: white;
+	color: white;
+}
+
+.hotdog {
+	background-color: white;
+	border-radius: 2em;
+	padding: 0.5em 1.5em;
+	display: flex;
+}
+
+.hotdog:focus {
+	background-color: white;
+}
+
+.form-select>select {
+	padding: 0.5em 1.3em;
+	background-color: white;
+	border-radius: 0.3em;
+	cursor: pointer;
+}
+
+.form-select {
+	position: relative;
+}
+
+.form-select::after {
+	content: '▼';
+	font-family: "Prompt",
+		sans-serif;
+	font-size: 1.2em;
+	position: absolute;
+	top: 50%;
+	right: 0.2em;
+	transform: translateY(-50%);
+	pointer-events: none;
+	color: white;
+}
+
+.hidden {
+	display: none;
+}
+
+.figcaption {
+	display: block;
+	font-weight: 400;
+}
+
+.caption-body {
+	font-weight: 700;
+	margin-bottom: 7px;
+}
+
+.figcaption {
+	display: block;
+	font-weight: 400;
+}
+
+.caption-body {
+	font-weight: 700;
+	margin-bottom: 7px;
+}
+
+.figure {
+	display: block;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 40px;
+	margin-inline-end: 40px;
+
+}
+
+.figure {
+	width: 250px;
+	margin: 0;
+	background-color: white;
+	position: relative;
+	text-align: left;
+}
+
+.figure img {
+	width: 100%;
+	align-items: center;
+	vertical-align: text-bottom;
+}
+
+.figure figcaption {
+	padding: 1em;
+}
+
+.figure.product {
+	border-radius: 0.5em;
+	overflow: hidden;
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.figure.product:hover {
+	transform: scale(1.03);
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-overlay-container {
+	display: block;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 40px;
+	margin-inline-end: 40px;
+}
+
+.product-overlay {
+	display: block;
+	width: 250px;
+
+
+}
+
+.product-overlay figcaption {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	opacity: 0;
+	transition: all 0.3s;
+	display: flex;
+	align-items: center;
+
+
+}
+
+.product-overlay:hover figcaption {
+	opacity: 1;
+}
+
+.product-overlay .caption-body {
+	background-color: white;
+	border-radius: 0.5em;
+	padding: 1em;
+	transform: translateY(2em);
+	transition: all 0.3s;
+}
+
+.product-overlay:hover .caption-body {
+	transform: translateY(0);
+	color: var(--color-green-light);
+}
+
+.product-overlay img {
+	width: 250px;
+	transform: scale(1, 1);
+	transition: all 0.3s;
+}
+
+.product-overlay:hover img {
+	transform: scale(1.4, 1.4);
+}
+
+.product-view {
+	position: relative;
+	width: 100%;
+}
+
+.cart-items-layout {
+	margin-top: 5em;
+}
+
+.cart-thumbs {
+	width: 50%;
+	height: auto;
+}
+
+.cart_price {
+	margin: 2em 3em 1em 3em;
+}
+
+.cart_price_total {
+	margin: 2em;
+	padding-top: 2em;
+	padding-bottom: 1em;
+	font-size: 1.2em;
+}
+
+.cart_img img {
+	width: 30%;
+	height: auto;
+
+}
+
+.form-select>select,
+.hotdog,
+.hotdog input,
+.form-button,
+.form-input,
+.form-item {
+	display: inline-block;
+	background-color: transparent;
+	border-width: 0;
+	font: inherit;
+	font-size: 0.8em;
+	color: inherit;
+	width: 100%;
+	outline: 0;
+	box-shadow: 3px 3px 3px black;
+}
+
+.form-input {
+	border-bottom: 1px solid black;
+	padding: 1em 1.5em;
+}
+
+.form-input:focus {
+	border-bottom-color: black;
+}
+
+
+.form-label {
+	font-size: 0.8em;
+	color: var(--color-neutral-medium);
+	display: block;
+	width: 100%;
+}
+
+.form-button {
+	background-color: grey;
+	border-radius: 0.2em;
+	cursor: pointer;
+	text-align: center;
+	padding: 1em 1.5em;
+}
