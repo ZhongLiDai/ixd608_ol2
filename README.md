@@ -2,7 +2,7 @@
 ## I'm Teylor Feliz
 ### A UX Designer, Engineer, Educator, and Consultant
 
-- Founder/Director of Design & Development at [Haketi](https://haketi.com)
+- Founder/Director of Design & Development at [Haketi - Web Design Company](https://haketi.com)
 - I teach UX and Software develoment courses at two universities.
 - I write articles on [admixweb](https://admixweb.com)
 - My website is [teylorfeliz.com](https://teylorfeliz.com)
