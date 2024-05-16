@@ -1,0 +1,43 @@
+<?php
+
+include_once "../notes/functions.php";
+
+$product = makeQuery(makeConn(),"SELECT * FROM `example` WHERE `id`=".$_GET['id'])[0];
+
+$cart_product = cartItemById($_GET['id']);
+
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Confirmation page</title>
+
+	<?php include "../notes/meta.php"; ?>
+
+</head>
+<body>
+
+	<?php include "navbar.php"; ?>
+
+	<div class="container">
+		<div class="card soft">
+			<div class="cart_img">
+				<img src="../gameshop/image/<?= $product->thumbnail ?>">
+			</div>
+			<h2>You added  <?= $product->name ?> to your cart!</h2>
+			<p>There are now <?= $cart_product->amount ?> of <?= $product->name ?> in your cart</p>
+
+			<div class="display-flex">
+				<div class="flex-none"><a href="product_list.php" >Continue Shopping</a></div>
+				<div class="flex-stretch"></div>
+				<div class="flex-none"><a href="product_cart.php">Go To Cart</a></div>
+			</div>
+		</div>
+	</div>
+ 
+
+</body>
+</html>
