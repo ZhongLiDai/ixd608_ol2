@@ -11,51 +11,52 @@
 </head>
 
 <body>
+    <?php include '../notes/meta.php'; ?>
     <?php include 'navbar.php'; ?>
     <?php include '../notes/templates.php'; ?>
     <div class="banner"></div>
     <h1 class="best">Best selling games</h3>
-        <div class="gallery">
-            <ul>
-                <li class="game1">
-                    <div class="game-thumbnail"></div>
+<!-- game gallery -->
+    <div class="display-flex container">
+    <figure class="figure product">
+                <div class="flex-stretch">
+                    <img src="../gameshop/image/image2.jpg" alt="">
                     <p class="game-title">Granblue Fantasy: Relink</p>
-                </li>
-                <li class="game2">
-                    <div class="game-thumbnail"></div>
-                    <p class="game-title">Sekiro: Shdow Die Twice</p>
-                </li>
-                <li class="game3">
-                    <div class="game-thumbnail"></div>
-                    <p class="game-title">The Binding of Issac: Rebirth</p>
-                </li>
-                <li class="game4">
-                    <div class="game-thumbnail"></div>
-                    <p class="game-title">The Lies of P</p>
-                </li>
-                <li class="game5">
-                    <div class="game-thumbnail"></div>
-                    <p class="game-title">Monster Hunter World</p>
-                </li>
-            </ul>
-        </div>
+                </div>
+                </figure>
+    <figure class="figure product">
+                <div class="flex-stretch">
+                    <img src="../gameshop/image/image4.jpg" alt="">
+                    <p class="game-title">Sekiro Shadow die Twice</p>
+                </div>
+                </figure>
+    <figure class="figure product">
+                <div class="flex-stretch">
+                    <img src="../gameshop/image/image5.jpg" alt="">
+                    <p class="game-title">The Binding of Issac</p>
+                </div>
+                </figure>
+    <figure class="figure product">
+                <div class="flex-stretch">
+                    <img src="../gameshop/image/image6.jpg" alt="">
+                    <p class="game-title">Lies of P</p>
+                </div>
+                </figure>
+    <figure class="figure product">
+                <div class="flex-stretch">
+                    <img src="../gameshop/image/image7.jpg" alt="">
+                    <p class="game-title">Destiny 2</p>
+                </div>
+                </figure>
+   
+          </div>      
+   
+        
         <div class="signup">
             <h2>Sign up to choose your games</h2>
             <input type="email"><button>sign up</button>
         </div>
-        <h1>Hot deal</h1>
-        <div class="gameshow">
-            <ul>
-                <li class="box1"></li>
-                <li class="box2"></li>
-                <li class="box3"></li>
-                <li class="box4"></li>
-                <li class="box5"></li>
-                <li class="box6"></li>
-                <li class="box7"></li>
-                <li class="box8"></li>
-            </ul>
-        </div>
+        
 
 <div class="container popular_items">
 		
@@ -64,7 +65,8 @@
 			<h2>Latest rpg</h2>
 <?php recommendedCategory("rpg");?>
 
-        <?php include "../notes/footer.php"; ?>
+        
 </body>
 
 </html>
+<?php include "../notes/footer.php"; ?>
