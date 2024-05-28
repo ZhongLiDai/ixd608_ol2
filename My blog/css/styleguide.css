@@ -1,0 +1,206 @@
+.main-color {
+    color: #61A595;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+body {
+    margin: 0;
+    font-size: 100%;
+    font-family: "Prompt",
+        sans-serif;
+}
+
+.center {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+
+.nav ul {
+    display: flex;
+    margin-left: 50px;
+}
+
+.nav ul li {
+    height: 50px;
+}
+
+.nav ul li a {
+    height: 50px;
+    padding: 0 20px;
+    font-size: 18px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.nav ul li a:hover {
+    color: aqua;
+    text-decoration-line: underline;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: auto;
+}
+
+
+.card {
+    background-color: #ffffff;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding: 1em;
+    overflow: hidden;
+    position: relative;
+    border-radius: 15px;
+}
+
+.card.soft {
+    border-radius: 0.3em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+
+.hover-effect:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.margin-top {
+    margin-top: 100px;
+}
+
+a {
+    text-decoration: solid;
+    color: #333;
+
+}
+
+/* font */
+.prompt-thin {
+    font-family: "Prompt", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.prompt-extralight {
+    font-family: "Prompt", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.prompt-light {
+    font-family: "Prompt", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.prompt-regular {
+    font-family: "Prompt", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.prompt-medium {
+    font-family: "Prompt", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.prompt-semibold {
+    font-family: "Prompt", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.prompt-bold {
+    font-family: "Prompt", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.prompt-extrabold {
+    font-family: "Prompt", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.prompt-black {
+    font-family: "Prompt", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.prompt-thin-italic {
+    font-family: "Prompt", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.prompt-extralight-italic {
+    font-family: "Prompt", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.prompt-light-italic {
+    font-family: "Prompt", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.prompt-regular-italic {
+    font-family: "Prompt", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.prompt-medium-italic {
+    font-family: "Prompt", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.prompt-semibold-italic {
+    font-family: "Prompt", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.prompt-bold-italic {
+    font-family: "Prompt", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.prompt-extrabold-italic {
+    font-family: "Prompt", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.prompt-black-italic {
+    font-family: "Prompt", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+/* component */
+.heading1 {
+    text-align: center;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    margin-top: 30px;
+}
+
+.banner {
+    width: 100%;
+    height: auto;
+}
