@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 .main-color {
     color: #61A595;
 }
@@ -6,42 +10,76 @@
     font-weight: bold;
 }
 
+.icon {
+    width: 15px;
+    height: 15px;
+}
+
+.line {
+    width: 50%;
+    height: 1px;
+    border-top: solid #333333 2px;
+}
+
+
 body {
     margin: 0;
     font-size: 100%;
     font-family: "Prompt",
         sans-serif;
+    background-color: rgb(19, 19, 22);
+    color: white;
 }
 
 .center {
     text-align: center;
 }
 
-ul {
-    list-style: none;
+.light-background {
+    background-color: #9bffe8;
+    width: 100%;
 }
 
-.nav ul {
+/* navbar */
+.navbar {
     display: flex;
-    margin-left: 50px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    /* Adjust the gradient colors as needed */
+    color: white;
+    background-color: rgb(19, 19, 22);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    /* Ensures the navbar is above other content */
 }
 
-.nav ul li {
-    height: 50px;
+.navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
 }
 
-.nav ul li a {
-    height: 50px;
-    padding: 0 20px;
-    font-size: 18px;
-    color: #000000;
+.navbar .nav-links {
+    display: flex;
+    gap: 15px;
+}
+
+.navbar .nav-links a {
     text-decoration: none;
+    color: white;
+    background: #333;
+    /* Button background color */
+    padding: 10px 20px;
+    border-radius: 5px;
 }
 
-.nav ul li a:hover {
-    color: aqua;
-    text-decoration-line: underline;
+.navbar .nav-links a:hover {
+    background: #555;
+    /* Hover effect color */
 }
+
 
 .container {
     max-width: 1000px;
@@ -51,7 +89,7 @@ ul {
 
 
 .card {
-    background-color: #ffffff;
+    background-color: rgb(0, 0, 0);
     margin-top: 1em;
     margin-bottom: 1em;
     padding: 1em;
@@ -70,14 +108,31 @@ ul {
     transition: 0.5s;
 }
 
+/* margin */
 .margin-top {
     margin-top: 100px;
 }
 
+.margin-top-little {
+    margin-top: 50px;
+}
+
+.margin-top-nav {
+    margin-top: 30px;
+}
+
+.margin-left {
+    margin-left: 50px;
+}
+
+.margin-right {
+    margin-right: 50px;
+}
+
+/* link */
 a {
     text-decoration: solid;
-    color: #333;
-
+    color: white;
 }
 
 /* font */
@@ -195,12 +250,44 @@ a {
 }
 
 .logo {
-    width: 100px;
-    height: 100px;
-    margin-top: 30px;
+    height: 50px;
+    margin-top: 5px;
 }
 
 .banner {
     width: 100%;
     height: auto;
+}
+
+/* nav-label */
+.nav-tag {
+    position: fixed;
+    top: 500px;
+    /* Adjust this value to position the navigation from the top */
+    left: 50px;
+    /* Adjust this value to position the navigation from the right */
+    padding: 10px;
+    /* Optional: Add some padding */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    /* Optional: Add a shadow for better visibility */
+    border-radius: 5px;
+    /* Optional: Add rounded corners */
+    z-index: 1000;
+    /* Ensure it stays on top of other content */
+}
+
+.nav-tag div {
+    margin-bottom: 5px;
+    /* Optional: Add space between links */
+}
+
+.nav-tag a {
+    text-decoration: none;
+    color: #777777;
+    /* Adjust this to your preferred link color */
+}
+
+.nav-tag a:hover {
+    color: #007BFF;
+    /* Adjust this to your preferred hover color */
 }
